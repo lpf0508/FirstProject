@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <style type="text/css">
+        table td{
+            border:solid 1px black;
+        }
+    </style>    
+    <script src="../BaseFile/CommonJS.js"></script>
+    <script type="text/javascript">
+        var win = new Win();
+        win.WinObj();
+        var result = GO.add();
+    </script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <script src="http://apps.bdimg.com/libs/angular.js/1.3.9/angular.min.js"></script>
+</head>
+<body ng-app="myApp">
+    <div ng-controller="first">
+        <span>{{firstName}}</span>
+    </div>
+    <div ng-controller="second">
+        <span>{{lastName}}</span>
+    </div>
+    <script>
+        var app = angular.module('myApp', []);
+        app.controller('first', function ($scope) {
+            $scope.firstName = "a";
+        });
+        app.controller('second', function ($scope) {
+            $scope.lastName = "B";
+        });
+    </script>
+</body>
+</html>

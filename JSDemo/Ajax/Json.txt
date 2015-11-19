@@ -1,0 +1,16 @@
+﻿{
+    "records": [
+      {
+		  "id":"1",
+          "Name" : "Alfreds Futterkiste",
+          "City" : "Berlin",
+          "Country" : "Germany"
+      },
+      {
+	      "id":"2",
+          "Name" : "Berglunds snabbköp",
+          "City" : "Luleå",
+          "Country" : "Sweden"
+      }
+    ]
+}

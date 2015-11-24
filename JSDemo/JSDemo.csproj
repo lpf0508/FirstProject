@@ -67,8 +67,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="BaseFile\CommonJS.js" />
+    <Content Include="jquery\jquery-1.9.0.min.js" />
     <Content Include="Pages\Index.html" />
     <Content Include="Pages\test.html" />
+    <Content Include="Require\require.js" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
   </ItemGroup>

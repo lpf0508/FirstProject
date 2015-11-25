@@ -1,9 +1,12 @@
 ﻿require.config({
+    baseUrl:'jquery',
     paths: {
-        jquery: '../jquery/jquery-1.9.0.min'
+        jquery: 'jquery-1.9.0.min'
     }
 });
 
-require(['jquery'], function ($) {
-    alert($().jquery);
+require(['jquery'], function () {
+    $(document).ready(function () {
+        alert('加载完毕...');
+    });
 });

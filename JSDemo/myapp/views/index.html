@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>Express</title>
+<script  src='js/lib/require.js'></script>
+<script  src='js/config-require.js'></script>
+</head>
+<body ng-controller='index-controller'>
+<!--	
+姓名:
+<input type='text' id='txt_name' ng-model='user.name' />
+<input type='button' id='btn_ok' ng-click='clickFun()' value='确定' />
+-->
+<a href='#/'>首页</a>
+<a href='#/student'>学生信息</a>
+<hr/>
+菜单:<br/>
+<div ng-include src = "'/partials/_menu.html'"></div>
+<hr/>
+模板:<br/>
+<div ng-view></div>
+<script src='js/app/bootstrap/index-bootstrap.js'></script>
+</body>
+</html>
